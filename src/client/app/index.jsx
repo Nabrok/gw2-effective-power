@@ -291,10 +291,10 @@ class Saved extends React.Component {
 									<td>{v.precision}</td>
 									<td>{v.ferocity}</td>
 									<td>
-									{ v.double_fury && <img src="Roiling_Mists.png" height="25px" title="Roiling Mists" /> }
-									{ v.extra_power && <img src="Empower_Allies.png" height="25px" title="Empower Allies" /> }
-									{ v.extra_precision && <img src="Spotter.png" height="25px" title="Spotter" /> }
-									{ v.extra_ferocity && <img src="Assassin's_Presence.png" height="25px" title="Assassin's Presence" /> }
+									{ v.double_fury && <img src="images/Roiling_Mists.png" height="25px" title="Roiling Mists" /> }
+									{ v.extra_power && <img src="images/Empower_Allies.png" height="25px" title="Empower Allies" /> }
+									{ v.extra_precision && <img src="images/Spotter.png" height="25px" title="Spotter" /> }
+									{ v.extra_ferocity && <img src="images/Assassin's_Presence.png" height="25px" title="Assassin's Presence" /> }
 									</td>
 									<td>{v.eff_power.toFixed(0)}</td>
 									<td>{ list[i + 1] && '(+'+(((v.eff_power / list[i+1].eff_power) - 1) * 100).toFixed(1)+'%)' }</td>
